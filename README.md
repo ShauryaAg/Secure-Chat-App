@@ -19,7 +19,7 @@ To test the application locally, simply clone the repository
 git clone https://github.com/ShauryaAg/Secure-Chat-App.git
 ```
 
-run ```npm install`` in each of the subfolders to install the dependencies
+run ```npm install``` in each of the subfolders to install the dependencies
 
-and run ```npm run dev``` in ```./server``` to run the server on PORT 8000
-and run ```npm start``` in ```./client``` to run the client on PORT 3000
+and run ```npm run dev``` in ```./server``` directory to run the server on PORT 8000  
+and ```npm start``` in ```./client``` directory to run the client on PORT 3000
