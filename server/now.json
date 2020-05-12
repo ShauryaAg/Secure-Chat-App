@@ -1,0 +1,24 @@
+{
+    "name": "secure-chat-app",
+    "version": 2,
+    "env": {
+        "mongoURL": "@mongourl",
+        "SECRET": "SomeSecretKey"
+    },
+    "builds": [
+        {
+            "src": "*.js",
+            "use": "@now/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/api/auth/(.*)",
+            "dest": "/"
+        },
+        {
+            "src": "/api/message",
+            "dest": "/"
+        }
+    ]
+}
