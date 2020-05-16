@@ -5,7 +5,7 @@ import { getMessages } from '../store/actions'
 import Message from './Message'
 
 import socketIOClient from "socket.io-client"
-const ENDPOINT = "https://secure-chat-app.now.sh"
+const ENDPOINT = "http://127.0.0.1:8000"
 
 
 class Messages extends Component {
