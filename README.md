@@ -23,3 +23,5 @@ run ```npm install``` in each of the subfolders to install the dependencies
 
 and run ```npm run dev``` in ```./server``` directory to run the server on PORT 8000  
 and ```npm start``` in ```./client``` directory to run the client on PORT 3000
+
+**Note:** You also need to create a ```.env``` file in ```./server``` directory which contains the mongoDB URL (mongoURL) and a SECRET for jw-token.
